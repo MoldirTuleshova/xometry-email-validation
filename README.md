@@ -37,6 +37,7 @@ Not included intentionally:
 Focus remains strictly on Email field to match the assignment.
 
 ## Project structure
+```text
 automation/
   src/
     pageObjects/
