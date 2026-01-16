@@ -49,6 +49,7 @@ automation/
   playwright.config.ts                 # Base URL and config
   package.json                         # Dependencies and scripts
   README.md                            # Assignment description
+```
 
 ## Known limitations
 
