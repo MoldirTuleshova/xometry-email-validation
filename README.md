@@ -8,11 +8,9 @@ on the Xometry sign up form using **Playwright + TypeScript** with the Page Obje
 The goal is to cover client-side validation of Email field on the sign up page:
 '/sign_up' (base URL is configured in Playwright config, e.g. 'https://get.preprod.xometry.eu').
 
-Original assignment: 
-    Write an automated test (preferably in TypeScript) that validates the Email field
-    on the registration form: https://get.preprod.xometry.eu/sign_up
-
-    Напишите автотест на Typescript (желательно), который проверяет валидацию поля Email в форме регистрации: https://get.preprod.xometry.eu/sign_up
+**Original assignment**: 
+- EN: Write an automated test (preferably in TypeScript) that validates the Email field on the registration form: https://get.preprod.xometry.eu/sign_up
+- RU: Напишите автотест на Typescript (желательно), который проверяет валидацию поля Email в форме регистрации: https://get.preprod.xometry.eu/sign_up
 
 ## Validation scenarios covered:
 1. **Required field**  
