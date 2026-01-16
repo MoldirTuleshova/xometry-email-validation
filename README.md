@@ -50,3 +50,13 @@ automation/
   package.json                         # Dependencies and scripts
   README.md                            # Assignment description
 
+## Known limitations
+
+The preprod environment has Google reCAPTCHA enabled on the sign-up form.
+When the form is submitted multiple times in a row from the same IP,
+reCAPTCHA may appear and block the UI. In such cases tests may fail
+even though the email validation logic is correct.
+
+In a real project I would ask for:
+- a dedicated test environment without CAPTCHA, or
+- a feature flag to disable reCAPTCHA for automated tests.
